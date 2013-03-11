@@ -131,8 +131,9 @@
 		C27AF9DD16EDE2F30085B35E /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = C27AF9DC16EDE2F30085B35E /* vec4.c */; };
 		C27AF9E216EDE2F30085B35E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27AF9E116EDE2F30085B35E /* main.m */; };
 		C27AF9E516EDE2F30085B35E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27AF9E416EDE2F30085B35E /* AppDelegate.m */; };
-		C27AF9E816EDE2F30085B35E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C27AF9E716EDE2F30085B35E /* HelloWorldLayer.m */; };
-		C27AF9EB16EDE2F30085B35E /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C27AF9EA16EDE2F30085B35E /* IntroLayer.m */; };
+		C27AF9F316EDE3B50085B35E /* CCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C27AF9F216EDE3B50085B35E /* CCButton.m */; };
+		C27AF9F616EDE5BD0085B35E /* SampleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C27AF9F516EDE5BC0085B35E /* SampleLayer.m */; };
+		C27AF9F816EDF1400085B35E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C27AF9F716EDF13F0085B35E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -394,10 +395,11 @@
 		C27AF9E116EDE2F30085B35E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C27AF9E316EDE2F30085B35E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C27AF9E416EDE2F30085B35E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C27AF9E616EDE2F30085B35E /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		C27AF9E716EDE2F30085B35E /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		C27AF9E916EDE2F30085B35E /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		C27AF9EA16EDE2F30085B35E /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		C27AF9F116EDE3B50085B35E /* CCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCButton.h; sourceTree = "<group>"; };
+		C27AF9F216EDE3B50085B35E /* CCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCButton.m; sourceTree = "<group>"; };
+		C27AF9F416EDE5BA0085B35E /* SampleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleLayer.h; sourceTree = "<group>"; };
+		C27AF9F516EDE5BC0085B35E /* SampleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleLayer.m; sourceTree = "<group>"; };
+		C27AF9F716EDF13F0085B35E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -423,6 +425,7 @@
 		C27AF84D16EDE2F00085B35E = {
 			isa = PBXGroup;
 			children = (
+				C27AF9F716EDF13F0085B35E /* Default-568h@2x.png */,
 				C27AF86B16EDE2F00085B35E /* CCButton */,
 				C27AF85816EDE2F00085B35E /* Frameworks */,
 				C27AF85716EDE2F00085B35E /* Products */,
@@ -458,10 +461,10 @@
 			children = (
 				C27AF9E316EDE2F30085B35E /* AppDelegate.h */,
 				C27AF9E416EDE2F30085B35E /* AppDelegate.m */,
-				C27AF9E616EDE2F30085B35E /* HelloWorldLayer.h */,
-				C27AF9E716EDE2F30085B35E /* HelloWorldLayer.m */,
-				C27AF9E916EDE2F30085B35E /* IntroLayer.h */,
-				C27AF9EA16EDE2F30085B35E /* IntroLayer.m */,
+				C27AF9F416EDE5BA0085B35E /* SampleLayer.h */,
+				C27AF9F516EDE5BC0085B35E /* SampleLayer.m */,
+				C27AF9F116EDE3B50085B35E /* CCButton.h */,
+				C27AF9F216EDE3B50085B35E /* CCButton.m */,
 				C27AF86C16EDE2F00085B35E /* Resources */,
 				C27AF88616EDE2F00085B35E /* libs */,
 				C27AF9DF16EDE2F30085B35E /* Supporting Files */,
@@ -895,6 +898,7 @@
 				C27AF88216EDE2F00085B35E /* Icon@2x.png in Resources */,
 				C27AF88516EDE2F00085B35E /* iTunesArtwork in Resources */,
 				C27AF9C316EDE2F20085B35E /* ChangeLog in Resources */,
+				C27AF9F816EDF1400085B35E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1011,8 @@
 				C27AF9DD16EDE2F30085B35E /* vec4.c in Sources */,
 				C27AF9E216EDE2F30085B35E /* main.m in Sources */,
 				C27AF9E516EDE2F30085B35E /* AppDelegate.m in Sources */,
-				C27AF9E816EDE2F30085B35E /* HelloWorldLayer.m in Sources */,
-				C27AF9EB16EDE2F30085B35E /* IntroLayer.m in Sources */,
+				C27AF9F316EDE3B50085B35E /* CCButton.m in Sources */,
+				C27AF9F616EDE5BD0085B35E /* SampleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
