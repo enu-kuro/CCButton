@@ -124,4 +124,10 @@
     [super onExit];
 }
 
+- (void)dealloc
+{
+    [targetAndActionDic release];
+    [super dealloc];
+}
+
 @end
